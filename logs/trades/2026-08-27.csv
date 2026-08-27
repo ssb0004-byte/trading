@@ -1,22 +1,23 @@
 date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_low,or_range,or_range_pct_of_price,first_candle_close_color,direction_bias,status,entry_time_et,entry_price,stop_price,stop_style,target_price,target_r_multiple,shares,risk_dollars,risk_pct_equity,exit_time_et,exit_price,realized_pnl,r_multiple_realized,reason_pass_fail,notes
-2026-08-27,MRK,149.34,~11.9M(prior day proxy),~3.9(prior day proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe(price/vol/atr),awaiting 09:35 ET opening range
-2026-08-27,TTWO,234.66,~2.4M(prior day proxy),~8.0(prior day proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
-2026-08-27,SLS,14.03,~6.9M(prior day proxy),~1.1(prior day proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
-2026-08-27,MSFT,494.01,~24.3M(prior day proxy),~5.5(prior day proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
-2026-08-27,NVDA,223.10,~104M(prior day proxy),~10.7(prior day proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range - gapped up overnight from ~210 close, possible catalyst
-2026-08-27,GOOGL,340.12,~21.3M(prior day proxy),~7.8(prior day proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
-2026-08-27,CMPS,14.87,~2.6M(prior day proxy),~0.7(prior day proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
-2026-08-27,ABT,112.83,~7.4M(prior day proxy),~1.5(prior day proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
-2026-08-27,RBLX,37.61,~12.0M(prior day proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe(price/vol),awaiting 09:35 ET opening range
-2026-08-27,RIVN,16.41,~20.5M(prior day proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe(price/vol),awaiting 09:35 ET opening range
+2026-08-27,MRK,150.845,11836912,3.89,1.23,151.32,149.02,2.30,1.53%,green,long,watching,,,,,,,,,,,,,pass_universe;rvol_pass;bias_long;RANGE_OVERSIZED(1.53%>1.5% cap - halve size if triggers),
+2026-08-27,TTWO,234.60,2388370,8.03,2.11,237.88,233.50,4.38,1.87%,red,short,skipped,,,,,,,,,,,,,,fail_doji(body only 6.8% of range; open~close - indecisive after yesterday's big move),
+2026-08-27,SLS,14.085,6882776,1.13,1.66,14.1783,13.9157,0.2626,1.87%,green,long,watching,,,,,,,,,,,,,pass_universe;rvol_pass;bias_long;RANGE_OVERSIZED(1.87%>1.5% cap - halve size if triggers),
+2026-08-27,MSFT,491.64,24340604,5.5,1.78,497.01,490.08,6.93,1.41%,red,short,watching,,,,,,,,,,,,,pass_universe;rvol_pass;bias_short;range_ok,
+2026-08-27,NVDA,222.322,104463460,10.7,8.50,225.50,221.22,4.28,1.93%,red,short,watching,,,,,,,,,,,,,pass_universe;rvol_pass(very strong-catalyst gap);bias_short;RANGE_OVERSIZED(1.93%>1.5% cap - halve size or skip if triggers),gapped up overnight (~210 close -> ~223 open) then faded within opening candle - high volatility name today watch carefully
+
+2026-08-27,GOOGL,339.49,21252687,7.8,3.32,340.58,338.52,2.06,0.61%,red,short,watching,,,,,,,,,,,,,pass_universe;rvol_pass;bias_short(weak-body_14pct_of_range);range_ok,
+2026-08-27,CMPS,14.45,2552831,0.68,3.10,14.7122,14.40,0.3122,2.15%,red,short,watching,,,,,,,,,,,,,pass_universe;rvol_pass(strong);bias_short;RANGE_OVERSIZED(2.15%>1.5% cap - halve size if triggers),
+2026-08-27,ABT,112.65,7446742,1.5,0.834,,,,,,,skipped,,,,,,,,,,,,,,fail_rvol(83%<100%),
+2026-08-27,RBLX,37.525,11976630,,0.185,,,,,,,skipped,,,,,,,,,,,,,,fail_rvol(19%<100%),
+2026-08-27,RIVN,16.65,20515520,,1.33,16.66,16.4201,0.2399,1.45%,green,long,watching,,,,,,,,,,,,,pass_universe;rvol_pass;bias_long;range_ok,
 2026-08-27,REGN,806.00,~0.7M(prior day proxy),,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.72M<1M),
-2026-08-27,LLY,1181.00,~2.5M(prior day proxy),~26(prior day proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
-2026-08-27,VOO,706.39,~6.0M(prior day proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe(ETF),awaiting 09:35 ET opening range
-2026-08-27,WY,23.85,~5.0M(prior day proxy),~0.53(prior day proxy - borderline),,,,,,,,pending,,,,,,,,,,,,,,pass_universe(borderline ATR),awaiting 09:35 ET opening range
-2026-08-27,RKT,13.8835,~27.1M(prior day proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
-2026-08-27,NOK,10.64,~75M(prior day proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
-2026-08-27,BB,8.0254,~9.2M(prior day proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
-2026-08-27,FCEL,19.75,~8.4M(prior day proxy),~2.0(prior day proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-27,LLY,1183.43,2527190,26,0.589,,,,,,,skipped,,,,,,,,,,,,,,fail_rvol(59%<100%),
+2026-08-27,VOO,705.48,6014622,,0.840,,,,,,,skipped,,,,,,,,,,,,,,fail_rvol(84%<100%),
+2026-08-27,WY,23.91,4993082,0.53,0.612,,,,,,,skipped,,,,,,,,,,,,,,fail_rvol(61%<100%),
+2026-08-27,RKT,13.925,27056714,,0.175,,,,,,,skipped,,,,,,,,,,,,,,fail_rvol(18%<100%),
+2026-08-27,NOK,10.605,~75000000(approx),,~0.77,,,,,,,skipped,,,,,,,,,,,,,,fail_rvol(~77%<100%; approx),
+2026-08-27,BB,8.235,~9200000(approx),,1.37,8.25,8.09,0.16,1.96%,green,long,watching,,,,,,,,,,,,,pass_universe;rvol_pass;bias_long;RANGE_OVERSIZED(1.96%>1.5% cap - halve size if triggers),closed near the high, strong body
+2026-08-27,FCEL,19.12,8384059,2.0,1.09,19.84,19.12,0.72,3.71%,red,short,watching,,,,,,,,,,,,,pass_universe;rvol_pass(marginal);bias_short;RANGE_OVERSIZED(3.71%>>1.5% cap - halve size or skip if triggers),closed at the low, strong body
 2026-08-27,GAIN,16.42,~220K(approx),,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d<<1M),
 2026-08-27,WFG,67.825,~221K(approx),,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d<<1M; also very wide bid/ask spread today - illiquid),
 2026-08-27,DRIV,34.27,~30K(approx),,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d<<1M),
@@ -25,3 +26,21 @@ date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_
 2026-08-27,AMC,2.6315,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
 2026-08-27,NIO,4.39,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
 2026-08-27,BLNK,0.5959,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
+2026-08-27,CRM,235.09,12212953,7.71,24.99,235.7977,230.71,5.0877,2.18%,green,long,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(extreme-earnings/catalyst +16%);bias_long;RANGE_OVERSIZED(2.18%>1.5% cap - halve size if triggers),
+2026-08-27,BURL,306.895,1057365,10.78,22.77,314.7198,302.00,12.7198,4.13%,red,short,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(extreme);bias_short(weak-body_11pct_of_range;indecisive);RANGE_OVERSIZED(4.13%>>1.5% cap - skip or minimal size only),huge post-gap whipsaw both directions
+2026-08-27,CRWD,216.7744,7883456,9.43,19.84,216.87,206.20,10.67,5.03%,green,long,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(extreme +14%);bias_long;closed_near_high;RANGE_OVERSIZED(5.03%>>1.5% cap - skip or minimal size only),
+2026-08-27,VEEV,281.88,1655567,8.17,14.57,282.44,275.385,7.055,2.52%,green,long,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(extreme +17%);bias_long(weak-body_27pct_of_range);RANGE_OVERSIZED(2.52%>1.5% cap - halve size or skip if triggers),
+2026-08-27,SNPS,422.16,1483295,12.78,12.86,433.4912,417.68,15.8112,3.76%,green,long,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(strong);bias_long(weak-body_21pct_of_range);RANGE_OVERSIZED(3.76%>>1.5% cap - skip or minimal size only),
+2026-08-27,STX,844.00,4055854,64.60,11.35,876.01,841.4375,34.5725,4.02%,red,short,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(strong);bias_short;closed_near_low;RANGE_OVERSIZED(4.02%>>1.5% cap - skip or minimal size only),big down move, possible earnings miss
+2026-08-27,BE,221.135,12197091,21.59,11.22,227.99,218.97,9.02,4.03%,red,short,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(strong);bias_short;RANGE_OVERSIZED(4.03%>>1.5% cap - skip or minimal size only),reversal from yesterday's long bias
+2026-08-27,JNJ,267.305,6217825,5.52,11.17,268.0186,266.00,2.0186,0.76%,red,short,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(scan-level; candle itself modest);bias_short(weak-body_15pct_of_range);range_ok,scan RVOL much higher than candle action suggests - treat cautiously
+2026-08-27,RVMD,219.7908,1713367,8.10,9.85,224.24,217.87,6.37,2.91%,green,long,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(strong);bias_long(weak-body_26pct_of_range);RANGE_OVERSIZED(2.91%>1.5% cap - halve size or skip if triggers),
+2026-08-27,ARM,259.13,3755363,19.00,9.08,263.78,255.195,8.585,3.34%,green,long,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(strong);bias_long;RANGE_OVERSIZED(3.34%>>1.5% cap - halve size or skip if triggers),second straight day of long bias/strength
+2026-08-27,CVX,199.24,7804558,4.03,8.80,200.00,199.02,0.98,0.49%,red,short,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(strong);bias_short(weak-body_23pct_of_range);range_ok,tight clean range despite weak body
+2026-08-27,MRVL,248.385,22898452,17.48,8.08,254.58,247.38,7.20,2.88%,red,short,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(strong);bias_short;RANGE_OVERSIZED(2.88%>1.5% cap - halve size if triggers),
+2026-08-27,MPC,364.97,2572664,10.96,6.68,365.395,362.86,2.535,0.70%,green,long,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass;bias_long;closed_near_high;range_ok,clean strong candle
+2026-08-27,LOW,207.365,2959416,5.71,6.63,208.67,206.6661,2.0039,0.96%,red,short,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass;bias_short;closed_near_low(open=high);range_ok,clean strong candle
+2026-08-27,AVGO,366.36,19528966,14.02,6.31,366.60,360.61,5.99,1.65%,green,long,watching,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass;bias_long;RANGE_OVERSIZED(1.65%>1.5% cap - halve size if triggers - marginal),
+2026-08-27,AMAT,481.74,7791527,28.78,6.28,484.98,479.435,5.545,1.15%,green,long,skipped,,,,,,,,,,,,,,fail_doji(body only 4.4% of range; open~close),
+2026-08-27,PANW,,5082317,15.22,5.93,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(strong +8.77%),not yet fetched opening candle - add on next check-in
+2026-08-27,ZS,,2156792,8.28,5.81,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan;rvol_pass(strong +7.45%),not yet fetched opening candle - add on next check-in
