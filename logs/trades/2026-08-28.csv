@@ -1,0 +1,27 @@
+date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_low,or_range,or_range_pct_of_price,first_candle_close_color,direction_bias,status,entry_time_et,entry_price,stop_price,stop_style,target_price,target_r_multiple,shares,risk_dollars,risk_pct_equity,exit_time_et,exit_price,realized_pnl,r_multiple_realized,reason_pass_fail,notes
+2026-08-28,MRK,146.50,~11.9M(recent proxy),~3.9(recent proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe(price/vol/atr),awaiting 09:35 ET opening range
+2026-08-28,TTWO,239.09,~2.4M(recent proxy),~8.0(recent proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-28,SLS,14.79,~6.9M(recent proxy),~1.1(recent proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-28,MSFT,505.07,~24.3M(recent proxy),~5.5(recent proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-28,NVDA,227.43,~104M(recent proxy),~10.7(recent proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range - held gains from Wed's gap, closed ~228 yesterday
+2026-08-28,GOOGL,340.79,~21.3M(recent proxy),~7.8(recent proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-28,CMPS,14.61,~2.6M(recent proxy),~0.7(recent proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-28,ABT,110.91,~7.4M(recent proxy),~1.5(recent proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-28,RBLX,38.39,~12.0M(recent proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe(price/vol),awaiting 09:35 ET opening range
+2026-08-28,LCID,5.06,10290087,0.423,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.42<0.50; price back above \$5 today but ATR still fails),
+2026-08-28,RIVN,16.55,~20.5M(recent proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe(price/vol),awaiting 09:35 ET opening range
+2026-08-28,REGN,807.71,~0.7M(recent proxy),,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.72M<1M),
+2026-08-28,LLY,1174.63,~2.5M(recent proxy),~26(recent proxy),,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-28,VOO,709.50,~6.0M(recent proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe(ETF),awaiting 09:35 ET opening range
+2026-08-28,WY,23.87,~5.0M(recent proxy),~0.53(recent proxy - borderline),,,,,,,,pending,,,,,,,,,,,,,,pass_universe(borderline ATR),awaiting 09:35 ET opening range
+2026-08-28,RKT,14.24,~27.1M(recent proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-28,NOK,10.60,~75M(recent proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-28,BB,8.63,~9.2M(recent proxy),,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range - up sharply from Wed (~7.8 -> 8.6)
+2026-08-28,FCEL,19.13,8384059,2.0,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,awaiting 09:35 ET opening range
+2026-08-28,GAIN,16.34,~220K(approx),,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d<<1M),
+2026-08-28,WFG,69.05,~221K(approx),,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d<<1M),
+2026-08-28,DRIV,34.81,~30K(approx),,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d<<1M),
+2026-08-28,GME,18.33,~5.0M(approx),~0.40(approx - borderline),,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.40<0.50 - borderline),
+2026-08-28,AMC,2.71,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<\$5),
+2026-08-28,NIO,4.37,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<\$5),
+2026-08-28,BLNK,0.565,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<\$5),
