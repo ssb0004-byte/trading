@@ -1,0 +1,47 @@
+date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_low,or_range,or_range_pct_of_price,first_candle_close_color,direction_bias,status,entry_time_et,entry_price,stop_price,stop_style,target_price,target_r_multiple,shares,risk_dollars,risk_pct_equity,exit_time_et,exit_price,realized_pnl,r_multiple_realized,reason_pass_fail,notes
+2026-09-01,MRK,149.66,12523413,4.90,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +1.29% vs prior close 147.76
+2026-09-01,TTWO,217.39,2586057,8.89,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -0.99% (continuing yesterday's breakdown)
+2026-09-01,SLS,12.9514,7963183,1.34,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -2.90%
+2026-09-01,GAIN,17.06,176228,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.18M<1M),
+2026-09-01,MSFT,497.41,23363471,9.81,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -1.95%
+2026-09-01,NVDA,217.10,130313394,6.81,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -1.66%
+2026-09-01,GOOGL,336.15,21930081,6.16,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -0.93%
+2026-09-01,CMPS,13.51,2338586,0.72,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market flat (~0)
+2026-09-01,ABT,111.99,7789258,2.36,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +1.48%
+2026-09-01,RBLX,40.71,10861883,1.82,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -1.40%
+2026-09-01,LCID,4.85,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
+2026-09-01,RIVN,15.69,22990274,0.70,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -2.30%
+2026-09-01,REGN,799.08,648364,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.65M<1M),
+2026-09-01,LLY,1184.24,2513275,36.99,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +2.38%
+2026-09-01,VOO,700.38,6483140,4.60,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -0.64% (tracks broad market weakness)
+2026-09-01,WY,23.26,4426278,0.54,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -0.47%
+2026-09-01,WFG,68.03,193225,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.19M<1M),
+2026-09-01,RKT,13.15,23019927,0.65,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -1.98%
+2026-09-01,AMC,2.62,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
+2026-09-01,NOK,10.06,72522587,0.47,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.47<0.50 - borderline),
+2026-09-01,NIO,4.10,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
+2026-09-01,BB,8.00,9284383,0.40,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.40<0.50),
+2026-09-01,GME,18.35,5662279,0.41,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.41<0.50 - borderline),
+2026-09-01,DRIV,34.52,24756,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.02M<<1M),
+2026-09-01,BLNK,0.52,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
+2026-09-01,FCEL,16.66,8156664,2.11,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -3.29% (continuing yesterday's breakdown)
+2026-09-01,AEM,195.52,3666812,8.08,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,broad market weakness; pre-market -3.74%
+2026-09-01,COIN,181.83,10815097,11.07,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -3.34%
+2026-09-01,MRVL,204.69,27088648,17.21,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -3.29%; retrigger candidate after invalidated long bias yesterday
+2026-09-01,ARM,234.02,3810277,17.83,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -3.26%
+2026-09-01,NBIS,200.45,25321588,20.14,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.84%
+2026-09-01,SCCO,202.96,1144281,8.47,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.83%
+2026-09-01,TER,340.00,2439455,24.29,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.81%
+2026-09-01,MTSI,256.59,1230193,16.88,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.74%
+2026-09-01,COHR,270.30,7444697,26.23,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.71%
+2026-09-01,APP,303.75,5406930,17.71,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.66%
+2026-09-01,MKSI,249.51,1245545,16.99,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.63%
+2026-09-01,TEAM,189.10,4469428,9.27,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.61%; expired unconfirmed yesterday, new day/new setup
+2026-09-01,PLTR,181.52,30941140,7.46,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.61%
+2026-09-01,VRT,252.00,4188763,14.79,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.60%
+2026-09-01,CIEN,372.87,1998621,26.90,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.59%
+2026-09-01,LRCX,293.69,7586929,17.22,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.59%
+2026-09-01,META,557.72,16037014,19.32,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.55%
+2026-09-01,GLD,398.07,12602234,7.66,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.53%; gold ETF, broad risk-off tilt
+2026-09-01,HUBS,254.97,1503585,14.76,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.44%
+2026-09-01,CDNS,330.50,2131046,11.23,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,pre-market -2.44%
