@@ -1,0 +1,47 @@
+date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_low,or_range,or_range_pct_of_price,first_candle_close_color,direction_bias,status,entry_time_et,entry_price,stop_price,stop_style,target_price,target_r_multiple,shares,risk_dollars,risk_pct_equity,exit_time_et,exit_price,realized_pnl,r_multiple_realized,reason_pass_fail,notes
+2026-09-02,MRK,150.14,12481947,4.81,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +0.19% vs prior close 149.86
+2026-09-02,TTWO,215.87,2654636,8.69,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -0.37%, third day of weakness after Fri gap-down
+2026-09-02,SLS,13.29,7828528,1.29,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +0.53%
+2026-09-02,GAIN,16.28,175390,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.18M<1M),
+2026-09-02,MSFT,499.66,22795286,9.69,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -0.27%
+2026-09-02,NVDA,218.69,130382862,6.67,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +0.57%
+2026-09-02,GOOGL,333.95,21810843,6.21,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -0.32%
+2026-09-02,CMPS,13.25,2181838,0.66,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +0.08%
+2026-09-02,ABT,108.69,7833238,2.46,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -0.22%
+2026-09-02,RBLX,40.00,10715982,1.86,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -1.65%
+2026-09-02,LCID,4.53,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
+2026-09-02,RIVN,15.55,23091538,0.70,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +0.10%
+2026-09-02,REGN,833.06,656053,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.66M<1M),
+2026-09-02,LLY,1166.31,2554771,36.72,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +0.54%
+2026-09-02,VOO,701.05,6595129,4.81,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +0.11%
+2026-09-02,WY,23.53,4477515,0.52,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market +0.64%
+2026-09-02,WFG,66.34,210290,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.21M<1M),
+2026-09-02,RKT,13.04,22157453,0.62,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; pre-market -0.05%
+2026-09-02,AMC,2.59,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
+2026-09-02,NOK,10.02,68656808,0.42,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.42<0.50),
+2026-09-02,NIO,3.94,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
+2026-09-02,BB,7.84,9197975,0.40,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.40<0.50),
+2026-09-02,GME,18.97,6132938,0.44,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.44<0.50 - borderline),
+2026-09-02,DRIV,34.03,25403,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.03M<<1M),
+2026-09-02,BLNK,0.515,,,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),
+2026-09-02,FCEL,15.27,7705542,1.93,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; big pre-market GAP DOWN -10.6% vs prior close 17.08 - catalyst-driven, worth close attention
+2026-09-02,MDB,380.00,1558645,21.64,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,biggest mover in the scan; -12.48% - earnings/catalyst gap down
+2026-09-02,DELL,462.60,5895579,27.92,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,+8.85% - earnings/catalyst gap up
+2026-09-02,CRDO,188.50,4501155,19.01,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,-8.77% - catalyst-driven
+2026-09-02,DDOG,218.00,3611585,14.06,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,-2.61%
+2026-09-02,SNOW,312.50,3575237,12.96,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,-2.28%
+2026-09-02,NTRA,328.00,1292496,11.57,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,+2.26%
+2026-09-02,MRVL,205.77,26885943,16.77,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,-2.20%; third consecutive day in the scan
+2026-09-02,AEM,197.20,3758247,8.17,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,+1.93%; back in the scan after yesterday's confirmed long trigger
+2026-09-02,NBIS,196.13,21538689,19.52,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,-1.71%; back in the scan after yesterday's confirmed short trigger
+2026-09-02,NTAP,186.05,2257685,7.04,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,+1.58%
+2026-09-02,APP,307.05,5019245,17.41,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,-1.50%; back in the scan after yesterday's confirmed long trigger
+2026-09-02,SCCO,204.61,1151805,8.48,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,+1.49%
+2026-09-02,LNG,290.00,1509591,7.67,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,-1.40%
+2026-09-02,ADBE,282.10,4252039,10.35,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,-1.39%
+2026-09-02,TSLA,360.88,37245905,13.77,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,+1.35%
+2026-09-02,ROST,232.32,3136740,6.12,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,+1.34%
+2026-09-02,HUBS,248.01,1449168,14.75,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,-1.23%
+2026-09-02,HWM,258.00,2888519,9.54,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,+1.22%
+2026-09-02,HCA,418.45,1214531,11.09,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,+1.18%
+2026-09-02,BE,211.27,11870448,19.31,,,,,,,,pending,,,,,,,,,,,,,,pass_universe;market_scan,-1.10%; fourth consecutive day with a short bias earlier this week
