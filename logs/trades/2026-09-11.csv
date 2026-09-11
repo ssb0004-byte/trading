@@ -1,0 +1,47 @@
+date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_low,or_range,or_range_pct_of_price,first_candle_close_color,direction_bias,status,entry_time_et,entry_price,stop_price,stop_style,target_price,target_r_multiple,shares,risk_dollars,risk_pct_equity,exit_time_et,exit_price,realized_pnl,r_multiple_realized,reason_pass_fail,notes
+2026-09-11,GAIN,16.00,163000,0.24,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.16M<1M),watchlist
+2026-09-11,LCID,4.25,11735000,0.39,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),watchlist
+2026-09-11,REGN,793.26,664000,20.31,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.66M<1M),watchlist
+2026-09-11,WFG,67.55,205000,2.29,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.20M<1M),watchlist
+2026-09-11,AMC,2.40,17723000,0.15,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),watchlist
+2026-09-11,NOK,10.81,65128000,0.39,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.39<0.50),watchlist
+2026-09-11,NIO,3.68,38389000,0.15,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),watchlist
+2026-09-11,BB,7.63,9035000,0.39,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.39<0.50),watchlist
+2026-09-11,GME,20.98,6303000,0.43,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.43<0.50),watchlist
+2026-09-11,DRIV,33.86,27000,0.55,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.03M<1M),watchlist
+2026-09-11,BLNK,0.55,1193000,0.03,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5),watchlist
+2026-09-11,MRK,145.75,12461000,4.82,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,TTWO,218.00,2827000,8.69,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,SLS,13.53,7967000,1.30,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,MSFT,496.70,22810000,10.48,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,NVDA,220.83,138757000,7.39,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,GOOGL,334.86,22356000,6.52,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,CMPS,14.34,2183000,0.65,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,ABT,103.58,8023000,2.75,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,RBLX,45.25,10267000,1.85,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,RIVN,16.20,23113000,0.69,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,LLY,1127.24,2612000,36.15,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,VOO,703.09,7132000,5.04,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,WY,22.23,4754000,0.53,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,RKT,13.45,22127000,0.62,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,FCEL,15.99,8234000,1.79,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"watchlist; pre-market survivor, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,BE,270.47,13520000,19.16,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +4.63% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,EWY,189.48,12210000,6.47,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.67% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,COHR,303.00,5510000,22.80,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.35% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,NBIS,235.75,14380000,18.23,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.35% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,ADBE,241.00,4910000,10.62,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover -3.15% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,MRVL,233.40,23910000,14.98,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.84% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,SPXL,283.59,1440000,6.70,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.66% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,AEM,201.60,3030000,7.91,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.50% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,KLAC,181.60,9050000,9.10,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.49% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,ASML,1729.02,1110000,55.85,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.46% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,PNC,248.84,1530000,4.25,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.41% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,GEV,946.14,1980000,40.38,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.41% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,ALAB,291.21,3290000,23.77,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.35% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,LRCX,305.00,7090000,15.95,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.35% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,AMAT,464.58,6090000,22.14,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.33% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,TER,378.65,2220000,21.90,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.29% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,VRT,253.76,4800000,15.50,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.27% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,FERG,225.90,1310000,6.20,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.23% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,CLS,332.37,2110000,19.34,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.20% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-11,RCL,264.68,1830000,7.89,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.19% vs prior close, awaiting 09:30-09:35 ET OR candle"
