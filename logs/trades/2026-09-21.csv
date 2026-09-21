@@ -1,47 +1,47 @@
 date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_low,or_range,or_range_pct_of_price,first_candle_close_color,direction_bias,status,entry_time_et,entry_price,stop_price,stop_style,target_price,target_r_multiple,shares,risk_dollars,risk_pct_equity,exit_time_et,exit_price,realized_pnl,r_multiple_realized,reason_pass_fail,notes
-2026-09-21,MRK,146.86,10141373,2.860,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
-2026-09-21,TTWO,206.71,2912924,7.581,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
-2026-09-21,SLS,11.60,7238158,0.920,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
+2026-09-21,MRK,146.86,10141373,2.860,0.31,147.3900,145.6100,1.7800,1.212%,green,long,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.31<1.0,watchlist; failed OR filter at Phase 2
+2026-09-21,TTWO,206.71,2912924,7.581,1.78,207.3000,204.5700,2.7300,1.321%,red,short,watching,,,,,,,,,,,,,,pass_universe,"watchlist; OR 204.57-207.30, red first candle, rvol=1.78, bias=short"
+2026-09-21,SLS,11.60,7238158,0.920,2.12,11.6899,11.3600,0.3299,2.844%,green,long,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.84%),"watchlist; OR 11.36-11.69, green first candle, rvol=2.12, bias=long; halve size if triggers"
 2026-09-21,GAIN,15.91,180321,0.287,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.18M<1M;atr_14d~0.29<0.50),"watchlist; failed universe filter, no OR computed"
-2026-09-21,MSFT,494.63,20226385,9.864,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
-2026-09-21,NVDA,223.40,118836851,5.937,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
-2026-09-21,GOOGL,349.54,26521508,8.165,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
-2026-09-21,CMPS,15.28,2845686,0.859,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
-2026-09-21,ABT,102.51,9197298,2.734,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
-2026-09-21,RBLX,50.65,10285495,2.351,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
+2026-09-21,MSFT,494.63,20226385,9.864,1.65,496.0000,493.2500,2.7500,0.556%,red,short,watching,,,,,,,,,,,,,,pass_universe,"watchlist; OR 493.25-496.00, red first candle, rvol=1.65, bias=short"
+2026-09-21,NVDA,223.40,118836851,5.937,1.92,223.5000,221.5600,1.9400,0.868%,green,long,watching,,,,,,,,,,,,,,pass_universe,"watchlist; OR 221.56-223.50, green first candle, rvol=1.92, bias=long"
+2026-09-21,GOOGL,349.54,26521508,8.165,2.83,354.1300,349.1000,5.0300,1.439%,green,long,watching,,,,,,,,,,,,,,pass_universe,"watchlist; OR 349.10-354.13, green first candle, rvol=2.83, bias=long"
+2026-09-21,CMPS,15.28,2845686,0.859,2.36,15.5000,15.1800,0.3200,2.094%,red,short,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.09%),"watchlist; OR 15.18-15.50, red first candle, rvol=2.36, bias=short; halve size if triggers"
+2026-09-21,ABT,102.51,9197298,2.734,0.15,102.5600,101.8500,0.7100,0.693%,green,long,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.15<1.0,watchlist; failed OR filter at Phase 2
+2026-09-21,RBLX,50.65,10285495,2.351,0.86,51.1900,50.0000,1.1900,2.349%,red,short,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.86<1.0,watchlist; failed OR filter at Phase 2
 2026-09-21,LCID,4.1500,12102283,0.277,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5($4.15);atr_14d~0.28<0.50),"watchlist; failed universe filter, no OR computed"
-2026-09-21,RIVN,15.20,20634785,0.629,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
+2026-09-21,RIVN,15.20,20634785,0.629,5.25,15.5600,15.1900,0.3700,2.434%,green,long,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.43%),"watchlist; OR 15.19-15.56, green first candle, rvol=5.25, bias=long; halve size if triggers"
 2026-09-21,REGN,782.89,730298,19.886,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.73M<1M),"watchlist; failed universe filter, no OR computed"
-2026-09-21,LLY,1143.99,2359148,25.502,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
-2026-09-21,VOO,706.14,8696772,5.939,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
+2026-09-21,LLY,1143.99,2359148,25.502,0.84,1152.2200,1134.6400,17.5800,1.537%,green,long,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.84<1.0,watchlist; failed OR filter at Phase 2
+2026-09-21,VOO,706.14,8696772,5.939,0.99,706.5399,705.9600,0.5799,0.082%,green,long,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.99<1.0,watchlist; failed OR filter at Phase 2
 2026-09-21,WY,21.55,6421920,0.464,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.46<0.50),"watchlist; failed universe filter, no OR computed"
 2026-09-21,WFG,71.35,246374,1.998,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.25M<1M),"watchlist; failed universe filter, no OR computed"
-2026-09-21,RKT,12.51,30988563,0.605,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
+2026-09-21,RKT,12.51,30988563,0.605,0.67,12.5700,12.1990,0.3710,2.966%,red,short,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.67<1.0,watchlist; failed OR filter at Phase 2
 2026-09-21,AMC,2.7600,26572369,0.153,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5($2.76);atr_14d~0.15<0.50),"watchlist; failed universe filter, no OR computed"
-2026-09-21,NOK,11.01,91877176,0.516,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
+2026-09-21,NOK,11.01,91877176,0.516,1.08,10.9900,10.8500,0.1400,1.272%,red,short,watching,,,,,,,,,,,,,,pass_universe,"watchlist; OR 10.85-10.99, red first candle, rvol=1.08, bias=short"
 2026-09-21,NIO,3.6600,44948138,0.145,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5($3.66);atr_14d~0.14<0.50),"watchlist; failed universe filter, no OR computed"
 2026-09-21,BB,8.1900,9440134,0.312,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(atr_14d~0.31<0.50),"watchlist; failed universe filter, no OR computed"
-2026-09-21,GME,22.88,9033426,0.771,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
+2026-09-21,GME,22.88,9033426,0.771,0.95,22.8700,22.5210,0.3490,1.525%,red,short,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.95<1.0,watchlist; failed OR filter at Phase 2
 2026-09-21,DRIV,33.53,34088,0.568,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(avg_vol_14d~0.03M<1M),"watchlist; failed universe filter, no OR computed"
 2026-09-21,BLNK,0.5990,1267935,0.031,,,,,,,,skipped,,,,,,,,,,,,,,fail_universe(price<$5($0.60);atr_14d~0.03<0.50),"watchlist; failed universe filter, no OR computed"
-2026-09-21,FCEL,18.60,7837264,1.473,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,watchlist; awaiting 09:30-09:35 ET OR candle
-2026-09-21,CIEN,367.01,3220000,26.29,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +5.22% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,ARM,289.78,4180000,16.55,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +5.14% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,COIN,203.70,10670000,12.58,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +4.86% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,ACN,189.63,4780000,6.87,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +4.60% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,SMTC,192.99,3200000,11.68,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +4.32% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,AMD,581.69,20430000,24.00,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.91% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,STX,890.01,3850000,52.05,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.64% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,FTAI,197.50,1520000,10.27,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.54% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,ALAB,313.97,4060000,22.00,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.54% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,WDC,456.95,6470000,28.60,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.53% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,MKSI,260.93,1340000,14.17,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.51% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,COHR,327.52,6410000,23.01,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.20% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,TER,382.98,2650000,21.68,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.10% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,EWY,186.75,12750000,6.62,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +3.00% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,TSEM,230.00,2010000,13.60,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.86% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,DELL,584.00,12850000,33.24,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.81% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,MTSI,283.30,1380000,15.79,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.70% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,JBL,307.65,1120000,12.28,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.70% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,MRVL,250.55,19570000,14.51,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.58% vs prior close, awaiting 09:30-09:35 ET OR candle"
-2026-09-21,CLS,341.05,2260000,19.85,,,,,,,,pending,,,,,,,,,,,,,,pass_universe,"market_scan; top-mover +2.53% vs prior close, awaiting 09:30-09:35 ET OR candle"
+2026-09-21,FCEL,18.60,7837264,1.473,2.61,18.3400,17.8900,0.4500,2.419%,red,short,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.42%),"watchlist; OR 17.89-18.34, red first candle, rvol=2.61, bias=short; halve size if triggers"
+2026-09-21,CIEN,367.01,3220000,26.29,1.43,367.6200,357.1700,10.4500,2.847%,red,short,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.85%),"market_scan; OR 357.17-367.62, red first candle, rvol=1.43, bias=short; halve size if triggers"
+2026-09-21,ARM,289.78,4180000,16.55,9.72,303.5100,293.0800,10.4300,3.599%,green,long,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(3.60%),"market_scan; OR 293.08-303.51, green first candle, rvol=9.72, bias=long; halve size if triggers"
+2026-09-21,COIN,203.70,10670000,12.58,6.13,208.3300,203.4100,4.9200,2.415%,red,short,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.42%),"market_scan; OR 203.41-208.33, red first candle, rvol=6.13, bias=short; halve size if triggers"
+2026-09-21,ACN,189.63,4780000,6.87,4.38,192.9900,186.0000,6.9900,3.686%,green,long,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(3.69%),"market_scan; OR 186.00-192.99, green first candle, rvol=4.38, bias=long; halve size if triggers"
+2026-09-21,SMTC,192.99,3200000,11.68,2.59,190.6400,183.3433,7.2967,3.781%,red,short,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(3.78%),"market_scan; OR 183.34-190.64, red first candle, rvol=2.59, bias=short; halve size if triggers"
+2026-09-21,AMD,581.69,20430000,24.00,6.69,589.8800,582.2700,7.6100,1.308%,green,long,watching,,,,,,,,,,,,,,pass_universe,"market_scan; OR 582.27-589.88, green first candle, rvol=6.69, bias=long"
+2026-09-21,STX,890.01,3850000,52.05,3.02,914.8200,886.6250,28.1950,3.168%,green,long,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(3.17%),"market_scan; OR 886.62-914.82, green first candle, rvol=3.02, bias=long; halve size if triggers"
+2026-09-21,FTAI,197.50,1520000,10.27,0.37,193.6000,190.5000,3.1000,1.570%,red,short,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.37<1.0,market_scan; failed OR filter at Phase 2
+2026-09-21,ALAB,313.97,4060000,22.00,1.71,314.8000,308.3400,6.4600,2.058%,green,long,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.06%),"market_scan; OR 308.34-314.80, green first candle, rvol=1.71, bias=long; halve size if triggers"
+2026-09-21,WDC,456.95,6470000,28.60,3.34,460.4900,444.9050,15.5850,3.411%,red,short,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(3.41%),"market_scan; OR 444.90-460.49, red first candle, rvol=3.34, bias=short; halve size if triggers"
+2026-09-21,MKSI,260.93,1340000,14.17,1.21,259.0000,253.0700,5.9300,2.273%,red,short,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.27%),"market_scan; OR 253.07-259.00, red first candle, rvol=1.21, bias=short; halve size if triggers"
+2026-09-21,COHR,327.52,6410000,23.01,2.02,327.8000,318.4350,9.3650,2.859%,red,short,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.86%),"market_scan; OR 318.44-327.80, red first candle, rvol=2.02, bias=short; halve size if triggers"
+2026-09-21,TER,382.98,2650000,21.68,2.29,382.6000,372.5000,10.1000,2.637%,red,short,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.64%),"market_scan; OR 372.50-382.60, red first candle, rvol=2.29, bias=short; halve size if triggers"
+2026-09-21,EWY,186.75,12750000,6.62,0.46,186.7950,185.8700,0.9250,0.495%,red,short,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.46<1.0,market_scan; failed OR filter at Phase 2
+2026-09-21,TSEM,230.00,2010000,13.60,1.05,229.3300,224.0700,5.2600,2.287%,green,long,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.29%),"market_scan; OR 224.07-229.33, green first candle, rvol=1.05, bias=long; halve size if triggers"
+2026-09-21,DELL,584.00,12850000,33.24,0.79,592.4400,576.1000,16.3400,2.798%,red,short,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.79<1.0,market_scan; failed OR filter at Phase 2
+2026-09-21,MTSI,283.30,1380000,15.79,1.54,283.5650,280.3200,3.2450,1.145%,red,short,watching,,,,,,,,,,,,,,pass_universe,"market_scan; OR 280.32-283.56, red first candle, rvol=1.54, bias=short"
+2026-09-21,JBL,307.65,1120000,12.28,0.41,306.3730,295.5000,10.8730,3.534%,red,short,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.41<1.0,market_scan; failed OR filter at Phase 2
+2026-09-21,MRVL,250.55,19570000,14.51,3.01,252.5000,247.4000,5.1000,2.036%,red,short,watching,,,,,,,,,,,,,,pass_universe; RANGE_OVERSIZED(2.04%),"market_scan; OR 247.40-252.50, red first candle, rvol=3.01, bias=short; halve size if triggers"
+2026-09-21,CLS,341.05,2260000,19.85,0.77,347.3650,335.4200,11.9450,3.502%,red,short,skipped,,,,,,,,,,,,,,pass_universe; fail_rvol0.77<1.0,market_scan; failed OR filter at Phase 2
