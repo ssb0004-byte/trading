@@ -1,22 +1,22 @@
 date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_low,or_range,or_range_pct_of_price,first_candle_close_color,direction_bias,status,entry_time_et,entry_price,stop_price,stop_style,target_price,target_r_multiple,shares,risk_dollars,risk_pct_equity,exit_time_et,exit_price,realized_pnl,r_multiple_realized,reason_pass_fail,notes
-2026-09-29,ABT,101.1500,8931928,2.0126,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,BB,8.8400,18200509,0.5038,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,CMPS,13.2100,3180558,0.9107,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,FCEL,17.7500,5453320,1.1782,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,GME,24.0829,10424080,1.0401,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,GOOGL,341.8100,27681580,8.4693,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,LLY,1188.9900,2232359,31.7009,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,MRK,148.9171,10365118,3.2043,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,MSFT,509.1700,21603940,11.9318,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,NOK,10.3400,94836656,0.5143,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,NVDA,230.2000,106340100,6.0259,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,RBLX,41.9900,11671124,2.6736,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,RIVN,14.8800,22533632,0.6663,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,RKT,12.1500,38353053,0.6019,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,SLS,11.6070,6695685,0.8637,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,TTWO,202.6100,2563756,6.9389,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,VOO,704.7900,10400010,6.1193,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
-2026-09-29,WY,19.8000,7126177,0.5275,,,,,,,,pending,,,,,,,,,,,,,,PASS universe filters (watchlist),
+2026-09-29,ABT,101.1500,8931928,2.0126,26.58%,100.8900,100.0300,0.8600,0.8502%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=26.6%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
+2026-09-29,BB,8.8400,18200509,0.5038,154.17%,8.9150,8.6150,0.3000,3.3937%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=154.2%; RANGE_OVERSIZED(3.39%)","RANGE_OVERSIZED(3.39% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,CMPS,13.2100,3180558,0.9107,47.26%,13.3100,13.1950,0.1150,0.8706%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=47.3%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
+2026-09-29,FCEL,17.7500,5453320,1.1782,425.80%,17.5800,16.8900,0.6900,3.8873%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=425.8%; RANGE_OVERSIZED(3.89%)","RANGE_OVERSIZED(3.89% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,GME,24.0829,10424080,1.0401,37.28%,24.0700,23.8294,0.2406,0.9990%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=37.3%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
+2026-09-29,GOOGL,341.8100,27681580,8.4693,156.24%,342.7600,341.0700,1.6900,0.4944%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=156.2%",
+2026-09-29,LLY,1188.9900,2232359,31.7009,21.98%,1188.6100,1182.9650,5.6450,0.4748%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=22.0%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
+2026-09-29,MRK,148.9171,10365118,3.2043,24.18%,149.5200,148.3100,1.2100,0.8125%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=24.2%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
+2026-09-29,MSFT,509.1700,21603940,11.9318,143.65%,509.4000,505.4600,3.9400,0.7738%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=143.7%",
+2026-09-29,NOK,10.3400,94836656,0.5143,39.01%,10.3600,10.2350,0.1250,1.2089%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=39.0%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
+2026-09-29,NVDA,230.2000,106340100,6.0259,330.00%,232.8200,230.4800,2.3400,1.0165%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=330.0%",
+2026-09-29,RBLX,41.9900,11671124,2.6736,88.46%,42.1800,41.3400,0.8400,2.0005%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=88.5%; RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(2.00%)","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent; RANGE_OVERSIZED(2.00% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,RIVN,14.8800,22533632,0.6663,338.24%,14.9700,14.7440,0.2260,1.5188%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=338.2%; RANGE_OVERSIZED(1.52%)","RANGE_OVERSIZED(1.52% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,RKT,12.1500,38353053,0.6019,110.99%,11.9400,11.6400,0.3000,2.4691%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=111.0%; RANGE_OVERSIZED(2.47%)","RANGE_OVERSIZED(2.47% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,SLS,11.6070,6695685,0.8637,40.98%,11.6250,11.4065,0.2185,1.8825%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=41.0%; RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(1.88%)","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent; RANGE_OVERSIZED(1.88% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,TTWO,202.6100,2563756,6.9389,53.28%,202.3500,201.4350,0.9150,0.4516%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=53.3%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
+2026-09-29,VOO,704.7900,10400010,6.1193,420.69%,704.8800,703.2600,1.6200,0.2299%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=420.7%",
+2026-09-29,WY,19.8000,7126177,0.5275,68.02%,19.7600,19.5950,0.1650,0.8333%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=68.0%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
 2026-09-29,AMC,0.0000,0,0.0000,,,,,,,,skipped,,,,,,,,,,,,,,FAIL universe filters (watchlist): price 3.29 < $5; atr14 0.18 < $0.5,
 2026-09-29,BLNK,0.0000,0,0.0000,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL universe filters (watchlist): price 0.56 < $5; avgvol14 961,300 < 1,000,000; atr14 0.03 < $0.5",
 2026-09-29,DRIV,0.0000,0,0.0000,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL universe filters (watchlist): avgvol14 32,490 < 1,000,000",
@@ -25,23 +25,23 @@ date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_
 2026-09-29,NIO,0.0000,0,0.0000,,,,,,,,skipped,,,,,,,,,,,,,,FAIL universe filters (watchlist): price 3.47 < $5; atr14 0.10 < $0.5,
 2026-09-29,REGN,0.0000,0,0.0000,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL universe filters (watchlist): avgvol14 761,015 < 1,000,000",
 2026-09-29,WFG,0.0000,0,0.0000,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL universe filters (watchlist): avgvol14 245,066 < 1,000,000",
-2026-09-29,RCL,258.7000,3378639,9.8300,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +6.64% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,BE,273.1000,17826773,19.9100,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +3.89% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,KLAC,194.4200,9684730,7.9000,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.78% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,COIN,196.8600,10474921,11.1500,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.64% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,VRT,250.2600,6021107,12.6100,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.55% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,AMAT,498.6300,6367334,19.7800,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.44% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,MRVL,257.8300,17829012,13.5300,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.35% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,VICR,291.7900,1015092,17.7000,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.35% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,STX,942.0000,4039658,50.3300,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.22% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,MKSI,264.0000,1293209,11.9900,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.18% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,AME,257.0800,1471766,5.0900,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.15% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,AVGO,357.0300,25022913,10.7700,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.13% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,LRCX,321.1000,10169330,14.4600,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +2.11% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,COHR,287.9900,6740068,20.4200,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +1.96% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,WDC,462.0000,7076619,27.6300,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +1.93% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,LITE,938.7300,4645693,62.1700,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +1.89% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,VLO,382.3500,4538780,15.3300,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, -1.85% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,MTSI,283.6300,1453736,14.2900,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +1.82% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,TER,408.5000,2626039,20.2700,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +1.79% chg, top-20 |%chg| not on watchlist)",
-2026-09-29,NXPI,240.5000,3804038,7.6500,,,,,,,,pending,,,,,,,,,,,,,,"PASS universe filters (market scan, +1.77% chg, top-20 |%chg| not on watchlist)",
+2026-09-29,RCL,258.7000,3378639,9.8300,289.06%,260.6200,255.0600,5.5600,2.1492%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=289.1%; RANGE_OVERSIZED(2.15%)","RANGE_OVERSIZED(2.15% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,BE,273.1000,17826773,19.9100,410.98%,286.4800,271.2300,15.2500,5.5840%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=411.0%; RANGE_OVERSIZED(5.58%)","RANGE_OVERSIZED(5.58% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,KLAC,194.4200,9684730,7.9000,173.12%,196.5000,192.5700,3.9300,2.0214%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=173.1%; RANGE_OVERSIZED(2.02%)","RANGE_OVERSIZED(2.02% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,COIN,196.8600,10474921,11.1500,165.19%,197.6300,191.9400,5.6900,2.8904%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=165.2%; RANGE_OVERSIZED(2.89%)","RANGE_OVERSIZED(2.89% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,VRT,250.2600,6021107,12.6100,93.28%,253.9800,251.4900,2.4900,0.9950%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=93.3%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
+2026-09-29,AMAT,498.6300,6367334,19.7800,385.65%,510.6000,502.3100,8.2900,1.6626%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=385.6%; RANGE_OVERSIZED(1.66%)","RANGE_OVERSIZED(1.66% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,MRVL,257.8300,17829012,13.5300,165.81%,259.8158,257.0800,2.7358,1.0611%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=165.8%",
+2026-09-29,VICR,291.7900,1015092,17.7000,107.39%,297.0000,290.8278,6.1722,2.1153%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=107.4%; RANGE_OVERSIZED(2.12%)","RANGE_OVERSIZED(2.12% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,STX,942.0000,4039658,50.3300,118.99%,944.4300,916.0100,28.4200,3.0170%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=119.0%; RANGE_OVERSIZED(3.02%)","RANGE_OVERSIZED(3.02% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,MKSI,264.0000,1293209,11.9900,109.50%,265.6100,261.6650,3.9450,1.4943%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=109.5%",
+2026-09-29,AME,257.0800,1471766,5.0900,5.13%,252.8500,251.9200,0.9300,0.3618%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=5.1%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
+2026-09-29,AVGO,357.0300,25022913,10.7700,286.05%,361.2600,355.8600,5.4000,1.5125%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=286.1%; RANGE_OVERSIZED(1.51%)","RANGE_OVERSIZED(1.51% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,LRCX,321.1000,10169330,14.4600,218.40%,326.9600,321.1100,5.8500,1.8219%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=218.4%; RANGE_OVERSIZED(1.82%)","RANGE_OVERSIZED(1.82% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,COHR,287.9900,6740068,20.4200,78.76%,290.7999,286.1600,4.6399,1.6111%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=78.8%; RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(1.61%)","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent; RANGE_OVERSIZED(1.61% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,WDC,462.0000,7076619,27.6300,119.99%,465.6600,454.0100,11.6500,2.5216%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=120.0%; RANGE_OVERSIZED(2.52%)","RANGE_OVERSIZED(2.52% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,LITE,938.7300,4645693,62.1700,190.84%,950.1800,934.5050,15.6750,1.6698%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=190.8%; RANGE_OVERSIZED(1.67%)","RANGE_OVERSIZED(1.67% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,VLO,382.3500,4538780,15.3300,35.83%,384.4400,379.5700,4.8700,1.2737%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=35.8%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
+2026-09-29,MTSI,283.6300,1453736,14.2900,88.53%,284.0550,279.5100,4.5450,1.6024%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=88.5%; RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(1.60%)","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent; RANGE_OVERSIZED(1.60% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,TER,408.5000,2626039,20.2700,156.13%,415.6100,409.1000,6.5100,1.5936%,green,long,watching,,,,,,,,,,,,,,"PASS Phase 2: green candle, long bias, rvol=156.1%; RANGE_OVERSIZED(1.59%)","RANGE_OVERSIZED(1.59% > 1.5% cap) - halve size if triggers (sizing note only, account unfunded)"
+2026-09-29,NXPI,240.5000,3804038,7.6500,80.56%,239.5000,236.8968,2.6032,1.0824%,red,short,watching,,,,,,,,,,,,,,"PASS Phase 2: red candle, short bias, rvol=80.6%; RVOL_BELOW_THRESHOLD","RVOL_BELOW_THRESHOLD - below 100% threshold, kept watching per established precedent"
