@@ -1,47 +1,47 @@
 date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_low,or_range,or_range_pct_of_price,first_candle_close_color,direction_bias,status,entry_time_et,entry_price,stop_price,stop_style,target_price,target_r_multiple,shares,risk_dollars,risk_pct_equity,exit_time_et,exit_price,realized_pnl,r_multiple_realized,reason_pass_fail,notes
-2026-10-02,ABT,96.9500,9058287.07,2.005814,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-10-02,ABT,97.3500,9058287.07,2.005814,0.7489,97.5300,95.4500,2.0800,2.1366,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(2.14%); halve size if triggers
 2026-10-02,AMC,2.8000,33964278.29,0.209893,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - price<5.0,atr14<0.5","watchlist symbol failed universe filter, not watched today"
-2026-10-02,BB,9.2900,21592226.21,0.567786,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-10-02,BB,9.3500,21592226.21,0.567786,0.5967,9.3700,9.2200,0.1500,1.6043,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(1.60%); halve size if triggers
 2026-10-02,BLNK,0.5400,974238.71,0.026793,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - price<5.0,avgvol14<1000000,atr14<0.5","watchlist symbol failed universe filter, not watched today"
-2026-10-02,CMPS,12.0400,2920965.64,0.790707,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-10-02,CMPS,12.0000,2920965.64,0.790707,1.4135,12.0650,11.9500,0.1150,0.9583,green,long,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),watching for breakout
 2026-10-02,DRIV,33.0600,45626.64,0.588584,,,,,,,,skipped,,,,,,,,,,,,,,FAIL - avgvol14<1000000,"watchlist symbol failed universe filter, not watched today"
-2026-10-02,FCEL,17.1300,5131851.36,1.135436,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-10-02,FCEL,17.2200,5131851.36,1.135436,3.3800,17.4300,17.2000,0.2300,1.3357,green,long,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),watching for breakout
 2026-10-02,GAIN,15.7400,154531.50,0.280500,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - avgvol14<1000000,atr14<0.5","watchlist symbol failed universe filter, not watched today"
-2026-10-02,GME,24.2000,10099758.29,0.992971,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-10-02,GOOGL,341.9000,28425801.74,9.117484,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-10-02,GME,24.2000,10099758.29,0.992971,0.4098,24.4000,24.1500,0.2500,1.0331,green,long,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RVOL_BELOW_THRESHOLD
+2026-10-02,GOOGL,341.2600,28425801.74,9.117484,2.0631,344.4400,341.1600,3.2800,0.9611,green,long,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),watching for breakout
 2026-10-02,LCID,4.2600,11402125.79,0.241779,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - price<5.0,atr14<0.5","watchlist symbol failed universe filter, not watched today"
-2026-10-02,LLY,1151.5100,2329882.80,32.198092,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-10-02,MRK,143.9200,10473981.29,3.352150,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-10-02,MSFT,517.3700,23380992.27,11.729384,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-10-02,LLY,1152.2600,2329882.80,32.198092,0.3013,1156.9900,1148.0000,8.9900,0.7802,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RVOL_BELOW_THRESHOLD
+2026-10-02,MRK,143.7700,10473981.29,3.352150,0.1886,144.2600,143.3300,0.9300,0.6469,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RVOL_BELOW_THRESHOLD
+2026-10-02,MSFT,519.2500,23380992.27,11.729384,2.8165,522.5000,518.8500,3.6500,0.7029,green,long,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),watching for breakout
 2026-10-02,NIO,3.4200,30070675.36,0.102500,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - price<5.0,atr14<0.5","watchlist symbol failed universe filter, not watched today"
-2026-10-02,NOK,10.5900,90665202.50,0.504636,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-10-02,NVDA,235.6300,109509419.57,5.818456,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-10-02,RBLX,43.1500,13278670.86,2.705700,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-10-02,NOK,10.5900,90665202.50,0.504636,0.8214,10.6100,10.4100,0.2000,1.8886,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(1.89%); halve size if triggers
+2026-10-02,NVDA,236.0500,109509419.57,5.818456,4.1295,236.4200,234.5300,1.8900,0.8007,green,long,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),watching for breakout
+2026-10-02,RBLX,43.3100,13278670.86,2.705700,0.3178,43.5000,42.8000,0.7000,1.6163,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(1.62%); halve size if triggers
 2026-10-02,REGN,741.6800,841537.07,21.854179,,,,,,,,skipped,,,,,,,,,,,,,,FAIL - avgvol14<1000000,"watchlist symbol failed universe filter, not watched today"
-2026-10-02,RIVN,15.3000,24327217.07,0.622950,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-10-02,RKT,12.5800,42956264.64,0.613679,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-10-02,SLS,11.5000,6200945.79,0.802950,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-10-02,TTWO,204.1300,2639874.48,6.765658,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-10-02,VOO,708.3700,10226357.70,6.049049,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-10-02,RIVN,15.2600,24327217.07,0.622950,5.7616,15.3600,14.9800,0.3800,2.4902,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RANGE_OVERSIZED(2.49%); halve size if triggers
+2026-10-02,RKT,12.6600,42956264.64,0.613679,1.9390,12.6600,12.4000,0.2600,2.0537,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RANGE_OVERSIZED(2.05%); halve size if triggers
+2026-10-02,SLS,11.5000,6200945.79,0.802950,1.0893,11.6000,11.3800,0.2200,1.9130,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RANGE_OVERSIZED(1.91%); halve size if triggers
+2026-10-02,TTWO,203.8600,2639874.48,6.765658,0.4761,204.4000,202.9400,1.4600,0.7162,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RVOL_BELOW_THRESHOLD
+2026-10-02,VOO,708.3100,10226357.70,6.049049,0.6421,708.5000,707.2910,1.2090,0.1707,green,,skipped,,,,,,,,,,,,,,"DOJI - pure doji first candle, no trade today",DOJI; RVOL_BELOW_THRESHOLD
 2026-10-02,WFG,66.9900,238295.79,2.211050,,,,,,,,skipped,,,,,,,,,,,,,,FAIL - avgvol14<1000000,"watchlist symbol failed universe filter, not watched today"
-2026-10-02,WY,18.8100,8050190.21,0.541786,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-10-02,STX,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-11.70% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,WDC,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-8.01% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,FICO,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-6.61% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,ARM,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+4.79% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,APP,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-4.70% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,MKSI,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+4.22% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,LNG,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-4.15% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,MRVL,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+3.50% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,SMTC,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+3.43% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,TER,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+3.42% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,COIN,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+3.41% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,AMD,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+3.26% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,NXPI,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+3.18% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,KLAC,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+3.08% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,CLS,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+2.98% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,VICR,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+2.91% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,TXN,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+2.71% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,EWY,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+2.63% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,MTZ,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+2.59% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-10-02,AMAT,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+2.59% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-10-02,WY,18.7700,8050190.21,0.541786,0.7129,18.8750,18.6700,0.2050,1.0922,red,short,watching,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),RVOL_BELOW_THRESHOLD
+2026-10-02,STX,822.0100,3870000.00,48.240000,13.4293,822.0100,791.7500,30.2600,3.6812,red,short,watching,,,,,,,,,,,,,,PASS - market scan top mover (-11.70% pre-open),RANGE_OVERSIZED(3.68%); halve size if triggers
+2026-10-02,WDC,423.2000,7470000.00,26.130000,10.2226,423.5100,414.0900,9.4200,2.2259,red,short,watching,,,,,,,,,,,,,,PASS - market scan top mover (-8.01% pre-open),RANGE_OVERSIZED(2.23%); halve size if triggers
+2026-10-02,FICO,614.2900,1030000.00,58.410000,2.7470,623.0000,609.1400,13.8600,2.2563,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (-6.61% pre-open),RANGE_OVERSIZED(2.26%); halve size if triggers
+2026-10-02,ARM,306.7750,6680000.00,18.490000,2.2436,309.5800,304.3300,5.2500,1.7114,red,short,watching,,,,,,,,,,,,,,PASS - market scan top mover (+4.79% pre-open),RANGE_OVERSIZED(1.71%); halve size if triggers
+2026-10-02,APP,270.4100,5480000.00,15.740000,5.2926,278.7699,269.4300,9.3399,3.4540,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (-4.70% pre-open),RANGE_OVERSIZED(3.45%); halve size if triggers
+2026-10-02,MKSI,283.5300,1260000.00,11.510000,2.9909,284.4600,281.5700,2.8900,1.0193,red,short,watching,,,,,,,,,,,,,,PASS - market scan top mover (+4.22% pre-open),watching for breakout
+2026-10-02,LNG,262.0000,2030000.00,7.120000,2.5395,263.8800,259.5000,4.3800,1.6718,red,short,watching,,,,,,,,,,,,,,PASS - market scan top mover (-4.15% pre-open),RANGE_OVERSIZED(1.67%); halve size if triggers
+2026-10-02,MRVL,277.8100,17400000.00,13.090000,3.5260,280.0000,275.0000,5.0000,1.7998,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (+3.50% pre-open),RANGE_OVERSIZED(1.80%); halve size if triggers
+2026-10-02,SMTC,191.9200,3530000.00,11.370000,4.3329,197.9750,191.0700,6.9050,3.5979,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (+3.43% pre-open),RANGE_OVERSIZED(3.60%); halve size if triggers
+2026-10-02,TER,428.4900,2540000.00,19.270000,2.4099,431.8600,427.0300,4.8300,1.1272,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (+3.42% pre-open),watching for breakout
+2026-10-02,COIN,194.4020,10600000.00,10.940000,2.7372,199.1299,194.4020,4.7279,2.4320,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (+3.41% pre-open),RANGE_OVERSIZED(2.43%); halve size if triggers
+2026-10-02,AMD,636.3400,23600000.00,23.780000,1.8753,637.1900,631.4500,5.7400,0.9020,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (+3.26% pre-open),watching for breakout
+2026-10-02,NXPI,245.3700,3620000.00,7.300000,0.6202,248.8600,243.7100,5.1500,2.0989,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (+3.18% pre-open),RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(2.10%); halve size if triggers
+2026-10-02,KLAC,207.6000,9410000.00,7.580000,1.3593,207.6100,204.0600,3.5500,1.7100,red,short,watching,,,,,,,,,,,,,,PASS - market scan top mover (+3.08% pre-open),RANGE_OVERSIZED(1.71%); halve size if triggers
+2026-10-02,CLS,385.6000,2280000.00,20.000000,1.1236,391.4899,383.0100,8.4799,2.1991,red,short,watching,,,,,,,,,,,,,,PASS - market scan top mover (+2.98% pre-open),RANGE_OVERSIZED(2.20%); halve size if triggers
+2026-10-02,VICR,311.3000,1080000.00,18.780000,1.5756,313.5600,305.7100,7.8500,2.5217,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (+2.91% pre-open),RANGE_OVERSIZED(2.52%); halve size if triggers
+2026-10-02,TXN,289.9300,6230000.00,7.560000,1.0304,293.7200,288.2035,5.5165,1.9027,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (+2.71% pre-open),RANGE_OVERSIZED(1.90%); halve size if triggers
+2026-10-02,EWY,191.1500,13100000.00,6.100000,0.4421,191.1500,190.1000,1.0500,0.5493,red,short,watching,,,,,,,,,,,,,,PASS - market scan top mover (+2.63% pre-open),RVOL_BELOW_THRESHOLD
+2026-10-02,MTZ,216.4450,1660000.00,11.580000,1.2659,220.5400,216.4400,4.1000,1.8942,green,long,watching,,,,,,,,,,,,,,PASS - market scan top mover (+2.59% pre-open),RANGE_OVERSIZED(1.89%); halve size if triggers
+2026-10-02,AMAT,542.4300,6830000.00,19.650000,2.0627,544.8700,537.5122,7.3578,1.3565,red,short,watching,,,,,,,,,,,,,,PASS - market scan top mover (+2.59% pre-open),watching for breakout
