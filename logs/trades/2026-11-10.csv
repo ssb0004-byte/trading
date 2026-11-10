@@ -1,47 +1,47 @@
 date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_low,or_range,or_range_pct_of_price,first_candle_close_color,direction_bias,status,entry_time_et,entry_price,stop_price,stop_style,target_price,target_r_multiple,shares,risk_dollars,risk_pct_equity,exit_time_et,exit_price,realized_pnl,r_multiple_realized,reason_pass_fail,notes
-2026-11-10,MRK,148.7600,10576133.93,5.024193,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,TTWO,207.4000,3039783.57,7.511236,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,SLS,8.5800,7952614.00,1.053300,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-10,MRK,148.7600,10576133.93,5.024193,0.2188,149.1900,147.6100,1.5800,1.0642,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD
+2026-11-10,TTWO,207.4000,3039783.57,7.511236,16.3883,229.4626,217.7250,11.7376,5.2146,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RANGE_OVERSIZED(5.21%>1.5%) - halve size if triggers
+2026-11-10,SLS,8.5800,7952614.00,1.053300,0.9888,8.4000,8.2600,0.1400,1.6726,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(1.67%>1.5%) - halve size if triggers
 2026-11-10,GAIN,15.0900,168010.36,0.308136,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - AVGVOL14(168010<1000000),ATR14(0.3081<0.5)","watchlist symbol failed universe filter, not watched today"
-2026-11-10,MSFT,545.1800,27955975.07,16.540429,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,NVDA,178.6700,151186073.21,8.784286,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,GOOGL,288.1500,46924602.64,11.662907,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,CMPS,9.1800,4055464.64,0.954286,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,ABT,110.5100,9624143.43,3.511243,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,RBLX,51.6000,11314594.36,3.535957,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-10,MSFT,545.1800,27955975.07,16.540429,1.3184,544.1500,538.8400,5.3100,0.9806,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,awaiting breakout confirmation
+2026-11-10,NVDA,178.6700,151186073.21,8.784286,7.8493,174.6700,170.9400,3.7300,2.1680,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RANGE_OVERSIZED(2.17%>1.5%) - halve size if triggers
+2026-11-10,GOOGL,288.1500,46924602.64,11.662907,1.8790,289.7700,287.2200,2.5500,0.8831,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,awaiting breakout confirmation
+2026-11-10,CMPS,9.1800,4055464.64,0.954286,1.1194,9.1800,8.9500,0.2300,2.5054,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RANGE_OVERSIZED(2.51%>1.5%) - halve size if triggers
+2026-11-10,ABT,110.5100,9624143.43,3.511243,0.1127,110.3300,109.6400,0.6900,0.6266,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD
+2026-11-10,RBLX,51.6000,11314594.36,3.535957,0.6953,52.2750,51.1250,1.1500,2.2343,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(2.23%>1.5%) - halve size if triggers
 2026-11-10,LCID,3.6000,12112298.00,0.307857,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - PRICE(3.6000<5.0),ATR14(0.3079<0.5)","watchlist symbol failed universe filter, not watched today"
-2026-11-10,RIVN,14.0100,34874288.07,0.683929,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,REGN,919.9600,1067983.00,34.215700,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,LLY,1411.9500,3243324.07,52.403336,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,VOO,691.8700,7643575.36,10.557143,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,WY,21.1300,8731076.29,0.707864,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-10,RIVN,14.0100,34874288.07,0.683929,1.1218,13.9773,13.7800,0.1973,1.4148,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,awaiting breakout confirmation
+2026-11-10,REGN,919.9600,1067983.00,34.215700,0.8802,919.7200,910.6500,9.0700,0.9932,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RVOL_BELOW_THRESHOLD
+2026-11-10,LLY,1411.9500,3243324.07,52.403336,0.7257,1416.5100,1400.0000,16.5100,1.1681,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD
+2026-11-10,VOO,691.8700,7643575.36,10.557143,0.9310,688.6250,686.7100,1.9150,0.2781,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD
+2026-11-10,WY,21.1300,8731076.29,0.707864,0.6488,20.9100,20.7450,0.1650,0.7931,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD
 2026-11-10,WFG,68.0800,204280.86,2.427500,,,,,,,,skipped,,,,,,,,,,,,,,FAIL - AVGVOL14(204281<1000000),"watchlist symbol failed universe filter, not watched today"
-2026-11-10,RKT,15.1900,41834770.64,0.676214,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-10,RKT,15.1900,41834770.64,0.676214,0.8966,14.7750,14.6000,0.1750,1.1925,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RVOL_BELOW_THRESHOLD
 2026-11-10,AMC,3.4000,24915399.07,0.209621,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - PRICE(3.4000<5.0),ATR14(0.2096<0.5)","watchlist symbol failed universe filter, not watched today"
-2026-11-10,NOK,8.1800,83805119.07,0.556786,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-10,NOK,8.1800,83805119.07,0.556786,0.9447,8.2150,8.1120,0.1030,1.2538,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD
 2026-11-10,NIO,3.4100,31356545.14,0.138157,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - PRICE(3.4100<5.0),ATR14(0.1382<0.5)","watchlist symbol failed universe filter, not watched today"
-2026-11-10,BB,9.2200,13800120.50,0.612521,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,GME,25.5900,6982483.07,1.057729,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-10,BB,9.2200,13800120.50,0.612521,1.1558,9.0700,8.8600,0.2100,2.3359,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RANGE_OVERSIZED(2.34%>1.5%) - halve size if triggers
+2026-11-10,GME,25.5900,6982483.07,1.057729,0.5439,25.5000,25.2800,0.2200,0.8634,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD
 2026-11-10,DRIV,29.4488,44261.71,0.817307,,,,,,,,skipped,,,,,,,,,,,,,,FAIL - AVGVOL14(44262<1000000),"watchlist symbol failed universe filter, not watched today"
 2026-11-10,BLNK,0.5168,2099584.93,0.045121,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - PRICE(0.5168<5.0),ATR14(0.0451<0.5)","watchlist symbol failed universe filter, not watched today"
-2026-11-10,FCEL,10.8200,6274367.07,1.238921,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
-2026-11-10,GEV,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-6.13% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,COHR,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-5.52% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,LITE,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-4.72% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,CAT,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-4.32% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,STX,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-3.78% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,SNDK,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-3.66% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,WDC,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-3.36% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,TER,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-3.29% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,CLS,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-3.19% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,LRCX,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-3.10% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,CIEN,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-2.87% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,AMAT,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-2.85% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,ALAB,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-2.81% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,ETN,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-2.72% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,MU,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-2.72% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,MTSI,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-2.61% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,ONTO,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (+2.56% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,VLO,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-2.48% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,DELL,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-2.39% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
-2026-11-10,MPWR,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-2.36% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-10,FCEL,10.8200,6274367.07,1.238921,2.0904,10.4199,10.0400,0.3799,3.6599,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RANGE_OVERSIZED(3.66%>1.5%) - halve size if triggers
+2026-11-10,GEV,778.5306,4660324.20,56.568642,4.4062,788.7475,747.0000,41.7475,5.3230,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RANGE_OVERSIZED(5.32%>1.5%) - halve size if triggers
+2026-11-10,COHR,212.7500,10070333.91,22.542696,1.9570,220.3697,214.0000,6.3697,2.8984,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RANGE_OVERSIZED(2.90%>1.5%) - halve size if triggers
+2026-11-10,LITE,568.0100,7211757.65,78.494452,1.5911,580.9750,570.4093,10.5657,1.8206,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RANGE_OVERSIZED(1.82%>1.5%) - halve size if triggers
+2026-11-10,CAT,573.0100,4194529.41,30.350153,3.5805,577.8000,566.1600,11.6400,2.0185,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RANGE_OVERSIZED(2.02%>1.5%) - halve size if triggers
+2026-11-10,STX,487.0000,6592286.54,54.318188,1.9471,497.3100,482.2600,15.0500,3.0858,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RANGE_OVERSIZED(3.09%>1.5%) - halve size if triggers
+2026-11-10,SNDK,854.1000,12132739.16,105.954551,2.7171,865.7800,839.4100,26.3700,3.0866,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RANGE_OVERSIZED(3.09%>1.5%) - halve size if triggers
+2026-11-10,WDC,280.0400,9745060.08,28.003450,1.3257,286.1600,277.5000,8.6600,3.0686,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RANGE_OVERSIZED(3.07%>1.5%) - halve size if triggers
+2026-11-10,TER,237.9000,5052434.26,23.265269,1.3803,243.7314,237.5650,6.1664,2.5712,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RANGE_OVERSIZED(2.57%>1.5%) - halve size if triggers
+2026-11-10,CLS,215.8130,4212323.18,23.518245,0.1774,223.6400,219.1400,4.5000,2.0303,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(2.03%>1.5%) - halve size if triggers
+2026-11-10,LRCX,214.4400,15422507.10,17.067257,0.9971,220.6200,217.0500,3.5700,1.6217,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(1.62%>1.5%) - halve size if triggers
+2026-11-10,CIEN,261.6000,3455009.97,28.140073,0.1973,266.7400,261.0000,5.7400,2.1572,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(2.16%>1.5%) - halve size if triggers
+2026-11-10,AMAT,360.0000,8715496.59,24.870907,1.1955,370.3300,364.2300,6.1000,1.6532,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RANGE_OVERSIZED(1.65%>1.5%) - halve size if triggers
+2026-11-10,ALAB,210.7700,5563111.86,25.147240,2.2394,214.5700,207.3604,7.2096,3.3808,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RANGE_OVERSIZED(3.38%>1.5%) - halve size if triggers
+2026-11-10,ETN,349.5100,3497471.40,19.734879,0.9962,353.2996,344.7813,8.5183,2.4134,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(2.41%>1.5%) - halve size if triggers
+2026-11-10,MU,713.2000,32157852.25,58.487585,2.0907,721.5000,702.3600,19.1400,2.6838,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RANGE_OVERSIZED(2.68%>1.5%) - halve size if triggers
+2026-11-10,MTSI,224.0000,2295289.94,20.882843,0.7060,229.1244,221.0000,8.1244,3.5917,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(3.59%>1.5%) - halve size if triggers
+2026-11-10,ONTO,199.0000,1201055.85,17.725529,4.2985,206.0900,196.3070,9.7830,4.9347,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RANGE_OVERSIZED(4.93%>1.5%) - halve size if triggers
+2026-11-10,VLO,347.9000,3504002.23,18.755776,0.7363,349.3000,342.5400,6.7600,1.9637,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(1.96%>1.5%) - halve size if triggers
+2026-11-10,DELL,338.0500,7062106.82,33.558302,1.4012,338.5000,328.1600,10.3400,3.0997,red,short,watching,,,,,,,,,,,,,,WATCHING - short bias from red opening candle,RANGE_OVERSIZED(3.10%>1.5%) - halve size if triggers
+2026-11-10,MPWR,1355.2700,1242505.97,85.068784,0.9102,1369.0650,1347.0200,22.0450,1.6127,green,long,watching,,,,,,,,,,,,,,WATCHING - long bias from green opening candle,RVOL_BELOW_THRESHOLD; RANGE_OVERSIZED(1.61%>1.5%) - halve size if triggers
