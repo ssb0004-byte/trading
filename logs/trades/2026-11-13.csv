@@ -1,0 +1,47 @@
+date,symbol,last_price_at_open,avg_vol_14d,atr_14d,rvol_first_candle,or_high,or_low,or_range,or_range_pct_of_price,first_candle_close_color,direction_bias,status,entry_time_et,entry_price,stop_price,stop_style,target_price,target_r_multiple,shares,risk_dollars,risk_pct_equity,exit_time_et,exit_price,realized_pnl,r_multiple_realized,reason_pass_fail,notes
+2026-11-13,MRK,146.9500,9262820.86,4.463129,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,TTWO,226.9500,3822489.00,9.643564,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,SLS,8.0300,7720350.36,1.007943,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,GAIN,14.8700,174019.36,0.337064,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - AVGVOL14=174019<1000000,ATR14=0.3371<0.5","watchlist symbol failed universe filter, not watched today"
+2026-11-13,MSFT,523.0000,29796968.86,17.480357,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,NVDA,166.1900,238579826.14,10.660000,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,GOOGL,298.7000,48036298.57,11.434643,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,CMPS,9.1200,4292951.57,0.957714,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,ABT,107.2500,8369556.07,3.040529,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,RBLX,51.4200,11504647.79,3.719836,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,LCID,3.2550,13847161.29,0.335357,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - PRICE=3.2550<5.0,ATR14=0.3354<0.5","watchlist symbol failed universe filter, not watched today"
+2026-11-13,RIVN,12.8000,35142598.07,0.732857,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,REGN,951.1900,1139449.00,38.365700,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,LLY,1427.2800,3279020.21,50.571914,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,VOO,696.0000,7665980.07,10.965714,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,WY,20.4600,8331080.21,0.668579,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,WFG,65.8600,187979.64,2.183571,,,,,,,,skipped,,,,,,,,,,,,,,FAIL - AVGVOL14=187980<1000000,"watchlist symbol failed universe filter, not watched today"
+2026-11-13,RKT,13.7100,38680870.79,0.708786,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,AMC,3.3400,25063409.50,0.219979,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - PRICE=3.3400<5.0,ATR14=0.2200<0.5","watchlist symbol failed universe filter, not watched today"
+2026-11-13,NOK,8.2800,70491460.36,0.469286,,,,,,,,skipped,,,,,,,,,,,,,,FAIL - ATR14=0.4693<0.5,"watchlist symbol failed universe filter, not watched today (ATR14 still below threshold, as 11/12)"
+2026-11-13,NIO,3.0500,34382447.71,0.146014,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - PRICE=3.0500<5.0,ATR14=0.1460<0.5","watchlist symbol failed universe filter, not watched today"
+2026-11-13,BB,9.1200,13485656.07,0.588029,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,GME,25.6200,5991878.36,0.946229,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,DRIV,28.9200,40094.43,0.852114,,,,,,,,skipped,,,,,,,,,,,,,,FAIL - AVGVOL14=40094<1000000,"watchlist symbol failed universe filter, not watched today"
+2026-11-13,BLNK,0.4525,2049826.00,0.047521,,,,,,,,skipped,,,,,,,,,,,,,,"FAIL - PRICE=0.4525<5.0,ATR14=0.0475<0.5","watchlist symbol failed universe filter, not watched today"
+2026-11-13,FCEL,10.2500,5202580.86,1.145707,,,,,,,,pending,,,,,,,,,,,,,,PASS - watchlist universe filters (price/avgvol14/atr14),awaiting 09:30-09:35 ET opening range candle
+2026-11-13,AMD,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-8.86% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,FN,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-8.67% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,COHR,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-8.66% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,SNDK,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-8.20% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,DELL,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-7.98% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,LITE,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-7.30% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,CLS,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-7.14% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,MTSI,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-7.12% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,TER,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-6.70% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,WDC,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-6.67% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,ALAB,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-6.11% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,CIEN,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-5.97% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,AVGO,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-5.91% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,STX,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-5.53% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,ONTO,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-5.38% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,AMAT,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-5.24% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,VRT,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-5.18% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,MPWR,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-5.18% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,MKSI,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-4.73% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
+2026-11-13,SMH,,,,,,,,,,,pending,,,,,,,,,,,,,,PASS - market scan top mover (-4.40% pre-open),"from market-wide scan, not on fixed watchlist; price/avgvol/atr to be captured at Phase 2"
